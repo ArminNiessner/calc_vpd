@@ -3,7 +3,7 @@ Python function to calculate vapor pressure deficit of air. Different methods ar
 
 ## Usage:
 
-Input has to be a pandas dataframe that has a column for Temperature in °C and a column for relative humidity in %. The user can choose between nine different approximation methods (["GoffGratch", "CIMO", "WMO", "HylandWexler", "Buck", "Sonntag", "Tetens", "Bolton", "MurphyKoop"]) and results are adjusted for elevation over seas level. Some methods also allow for calculation of vpd over ice.
+Input has to be a pandas dataframe that has a column for Temperature in °C and a column for relative humidity in %. The user can choose between nine different approximation methods (["GoffGratch", "CIMO", "WMO", "HylandWexler", "Buck", "Sonntag", "Tetens", "Bolton", "MurphyKoop"]) and results are adjusted for elevation over sea level. Some methods also allow for calculation of vpd over ice.
 
 vpd of air in 200 m asl using the approximation after Goff, J. A., and S. Gratch 1946
 ```
